@@ -8,7 +8,6 @@
 }
 
 header{
-    /* height: 60px; */
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -32,13 +31,13 @@ nav li{
     font-size: 22px;
 }
 nav li:hover{
-    color: cadetblue;
+    color: #29d9d5;
 }
 a{
     text-decoration: none;
 }
 i{
-    color: cadetblue;
+    color: #29d9d5;
     font-size: 32px;
     padding: 5px;
 }
@@ -52,8 +51,8 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: cadetblue;
-    border: 2px solid cadetblue;
+    color: #29d9d5;
+    border: 2px solid #29d9d5;
     border-radius: 20px;
     padding: 10px;
     cursor: pointer;
@@ -102,9 +101,7 @@ main{
     filter: grayscale(2);
     cursor: pointer;
 }
-.card:hover{
 
-}
 .c1{
     background-image: url("../images/img-1.jpg");
 }
@@ -126,16 +123,16 @@ main{
 .banner{
     /* height: 50vh; */
     width: 100%;
-    background-image: url("./images/christtheredeemer.jpg");
+    background-image: url("../images/img-man.jpgddd");
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10px 100px;
+    padding: 70px 100px;
 }
 .banner h3{
-    color:cadetblue;
+    color:#29d9d5;
     font-size: 30px;
     padding: 20px;
     text-shadow: 0px 0px 3px cadetblue;
@@ -173,7 +170,7 @@ footer{
     width: 300px;
     height: 40px;
     background-color:transparent;
-    border: 2px solid cadetblue;
+    border: 2px solid #29d9d5;
     border-radius: 10px;
     padding: 5px;
     margin: 20px 0px;
